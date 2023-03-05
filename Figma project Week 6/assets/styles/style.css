@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    font-family: 'Roboto', Georgia, sans-serif;
+}
+.hero__about {
+    display: grid;
+    grid-template-rows: 2fr;
+    text-align: center;
+    height: 133px;
+    margin-bottom: 64px;
+}
+.h1 {
+    grid-row: 1/2;
+    font-size: 48px;
+    font-weight: 700;
+    color: #211F54;
+}
+
+.hero__about-text {
+    grid-row: 2/3;
+    font-size: 21px;
+    font-weight: 400;
+    color: #6E7191;
+    width: 648px;
+    height: 61px;
+    justify-self: center;
+}
+
+.hero__description {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 42px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 56px;
+}
+.hero__description-one {
+    grid-column: 1/2;
+    height: 392px;
+    width: 374px;
+}
+.hero__description-two {
+    grid-column: 2/3;
+    height: 392px;
+    width: 374px;
+}
+.hero__description-three {
+    grid-column: 3/4;
+    height: 392px;
+    width: 374px;
+}
+.h3-one,
+.h3-two,
+.h3-three {
+    font-size: 28px;
+    font-weight: 700;
+    color: #211F54;
+    text-align: center;
+}
+.p-one,
+.p-two,
+.p-three {
+    font-size: 21px;
+    font-weight: 400;
+    color: #6E7191;
+    text-align: center;
+}
+
+.hero__navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero__menu-btn1 {
+    grid-column: 1/2;
+    width: 217px;
+    margin-left: 381px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding: 26px 38px;
+    background-color: #0075FF;
+    border: 1px solid white;
+    border-radius: 28px;
+}
+.hero__menu-btn2 {
+    grid-column: 2/3;
+    width: 214px;
+    margin-left: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    color:#211F54;
+    padding: 26px 38px;
+    background-color: #EFF0F6;
+    border: 1px solid white;
+    border-radius: 28px;
+}
