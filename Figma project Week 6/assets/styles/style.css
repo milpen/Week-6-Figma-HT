@@ -6,6 +6,9 @@
     font-family: 'Roboto', Georgia, sans-serif;
 }
 
+.main {
+    width: 1268px;
+}
 .hero__about {
     display: grid;
     grid-template-rows: 2fr;
@@ -42,18 +45,24 @@
 
 .hero__description-one {
     grid-column: 1/2;
+    display: grid;
+    justify-items: center;
     height: 392px;
     width: 374px;
 }
 
 .hero__description-two {
     grid-column: 2/3;
+    display: grid;
+    justify-items: center;
     height: 392px;
     width: 374px;
 }
 
 .hero__description-three {
     grid-column: 3/4;
+    display: grid;
+    justify-items: center;
     height: 392px;
     width: 374px;
 }
@@ -79,10 +88,12 @@
 .hero__navigation {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 1220px;
 }
 
 .hero__menu-btn1 {
     grid-column: 1/2;
+    justify-items: end;
     width: 217px;
     margin-left: 381px;
     padding: 26px 38px;
